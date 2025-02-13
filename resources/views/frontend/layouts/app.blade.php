@@ -15,7 +15,9 @@
     <!-- carousel CSS -->
     <link rel="stylesheet" href="{{ asset('frontend/assets/css/owl.carousel.min.css') }}" type="text/css"
         media="all" />
-
+    {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> --}}
     <!-- nivo-slider CSS -->
     <link rel="stylesheet" href="{{ asset('frontend/assets/css/nivo-slider.css') }}" type="text/css" media="all" />
     <!-- animate CSS -->
@@ -23,7 +25,7 @@
     <!-- animated-text CSS -->
     <link rel="stylesheet" href="{{ asset('frontend/assets/css/animated-text.css') }}" type="text/css" media="all" />
     <!-- font-awesome CSS -->
-    <!-- <link rel="stylesheet" href="{{ asset('frontend/assets/css/all.min.css') }}" type="text/css" media="all" /> -->
+    <link rel="stylesheet" href="{{ asset('frontend/assets/css/all.min.css') }}" type="text/css" media="all" />
     <!-- font-flaticon CSS -->
     <link rel="stylesheet" href="{{ asset('frontend/assets/css/flaticon.css') }}" type="text/css" media="all" />
     <!-- theme-default CSS -->
@@ -99,6 +101,29 @@
         //     fjs.parentNode.insertBefore(js, fjs);
         //   }(document, 'script', 'facebook-jssdk'));
     </script>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TZBDVQRR');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZBDVQRR" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
     <!-- Your Chat Plugin code -->
     <div class="fb-customerchat" attribution=setup_tool page_id="103489751970972" theme_color="#0084ff"
@@ -254,6 +279,9 @@
                                 <span>{{ trans('footer.text5') }}</span>
                             </p>
                             <p><b>{{ trans('footer.phone') }}</b> <span>{{ trans('footer.phone_number') }}</span></p>
+                            <p><span class="mx-5 px-3 py-0 my-0">{{ trans('footer.phone_number2') }}</span></p>
+                            <p><span class="mx-5 px-3 py-0 my-0">{{ trans('footer.phone_number3') }}</span></p>
+                            <p><span class="mx-5 px-3 py-0 my-0">{{ trans('footer.phone_number4') }}</span></p>
                         </div>
                     </div>
                 </div>
@@ -301,22 +329,23 @@
     <a href="https://wa.me/+8801944555500" target="_blank" class="whatsapp-btn">
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
     </a>
-    
+
     <style>
-    .whatsapp-btn {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        width: 60px;
-        height: 60px;
-        z-index: 9999;
-    }
-    .whatsapp-btn img {
-        width: 100%;
-        height: auto;
-    }
+        .whatsapp-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            z-index: 9999;
+        }
+
+        .whatsapp-btn img {
+            width: 100%;
+            height: auto;
+        }
     </style>
-    
+
 
     <!-- jquery js -->
     <script type="text/javascript" src="{{ asset('frontend/assets/js/vendor/jquery-3.2.1.min.js') }}"></script>

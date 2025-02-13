@@ -9,23 +9,28 @@ return [
     'call' => 'Call',
 
     'ourMission' => 'Our Mission',
-    'ourMissionText1' => 'We know you have come to Bengal Consultancy looking for answers and solutions about your problems. We understand you do not want to spend hours and hours researching about the visa process. ',
-    'ourMissionText2' => 'We realize you want to know up-front what your costs will be so you can plan accordingly. At Bengal Consultancy, we strongly agree – the visa process should not make you confused or anxious and it should not be expensive or time-consuming. To ensure you have the best possible satisfying experience, you can select the level of service and features you need and know how much the whole process will cost before you begin. Our goal is to make each trip memorable by providing appropriate advice and support according to the needs of each traveler and applying it perfectly.',
+    'ourMissionText1' => 'At Bengal Consultancy, we believe that pursuing international education, career growth, or travel should be exciting—not stressful. Whether you need a student visa, work visa, travel visa, or business visa, our mission is to simplify the visa process and provide you with a smooth, fast, and hassle-free visa experience.',
+    'ourMissionText2' => 'We specialize in study abroad consultancy, visa application services, travel assistance, business consultancy. Our expert advisors ensure you get step-by-step visa guidance, transparent pricing, and personalized support, so you always know what to expect next.',
+    'ourMissionText3' => 'Why waste hours researching confusing visa rules? With Bengal Consultancy, you get accurate information, professional assistance, and a streamlined visa application process that saves you time and effort.',
+    'ourMissionText4' => 'Let us handle the visa paperwork while you focus on your dreams! Whether you\'re planning to study, work, travel, or expand your business internationally, we are here to help you achieve visa success—quickly, easily, and affordably.',
+
+
+
 
     'whyUs' => 'Why Us?',
 
     'whyUsText' => 'We are commited to serve you with transparency.',
 
-    'ourService' => 'Our Services',
-    
+    'ourService' => 'Our Services - Your Pathway to Global Opportunities.',
+
     'ourService1' => 'Business Project (Human Resources, Hotel, Restaurant, Factory)',
-    'ourService1Text' => 'We are professionals from different sectors. Therefore, we know inside and outside of different kinds of businesses. Bengal Consultancy understands the importance of Brain Storming, Data Analysis, Decision-making process, Registration of Government authority, Fund Arrangement, Hire Workforce, Implement of decisions, Money Management and etc. As a third eye of your Project/Business, we can provide actual impressions, statics, and growth of your business.',
+    'ourService1Text' => 'Starting a hotel, restaurant, factory, or any business? We help with market research, legal registration, funding, workforce hiring, and strategic business planning. Our expert team ensures your business is set up for success and long-term growth.',
 
     'ourService2' => 'Travel Support',
     'ourService2Text' => 'Bengal Consultancy has unimpeachable knowledge and expertise in tourism sector. We worked with different organizations of travel industry. Hence, we offer our best expertise to comfort your travel experience.',
 
     'ourService3' => 'Higher Study Support',
-    'ourService3Text' => 'For students who want to study abroad to make a bright future, Bengal Consultancy offers step-by-step clear guidance for their bright future.  Our experience in this field over the last 8 years and our relationship with universities will boost your successful admissions and visa chances since we know what the institutions need for a good and complete application. The process may seem simple, but you will slowly realize that there are massive documentation and formalities involved that need to be adhered to when you apply to a university and visa authority. This is where we come in, our advice and support will prove useful to make your bright future.',
+    'ourService3Text' => 'Want to study abroad? We guide students through university selection, application processing, visa approval, and scholarship opportunities. With 8+ years of experience, we help students achieve their dream of international education.',
 
     'ourService4' => 'Visa  Consultancy',
     'ourService4Text' => 'Nowadays, going abroad is not a luxury of life but it is a necessity for business deals, Medical checkups, attends conferences, and other various reasons. Therefore, Travelers have to seek out for Visa before entering another country. Each country has its own requirement for documents and systems. To get visa traveler have to arrange all the documents and go through the system. Bengal Consultancy will be able to help you arrange the necessary documents and submit your visa application to the respective embassy.',
@@ -34,15 +39,15 @@ return [
     'ourService5Text' => 'Through our partner organization, We can provide support in a different country where you need to airport pick up and drop, Hotel/Lodge Booking, rental car, arrange meeting, documents submission to office/embassy. on your behalf  Our representatives would arrange all things smoothly.  we would help you to do above things smoothly. ',
 
     'ourService6' => 'Export-Import Business Consultancy',
-    'ourService6Text' => 'Bangladesh is an emerging economic power in Asia.  It has a booming market for foreign products. As well as for export have diverse products such as eco-friendly Jut products, garden-fresh vegetables, fruits, fish, also world-class garments and leather products. Increases in Bangladeshis per Capita Income give them the freedom to buy expensive foreign products according to their needs. Bengal consultancy can help Importers and new brands to analyze market depth, Brand promotions, Registration, arrange business marketing, etc.  ',
+    'ourService6Text' => 'With Bangladesh’s growing economy, now is the perfect time to import foreign products or export Bangladeshi goods. We assist with market research, brand promotion, business registration, and trade logistics to help businesses expand globally.',
 
-    
+
     'students' => 'Students',
 
     'immigration' => 'Immigration',
 
     'universities' => 'Universities',
-    
+
     'country' => 'Country',
 
 ];

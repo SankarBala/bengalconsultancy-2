@@ -74,7 +74,8 @@
                                 </div>
                                 <div class="cda-content-inner">
                                     <h4>{{ trans('contact.phone number') }}</h4>
-                                    <p>{{ trans('contact.number') }}</p>
+                                    <p>{{ trans('footer.phone_number') }}</p>
+                                    <p>{{ trans('footer.phone_number4') }}</p>
                                 </div>
                             </div>
                         </div>

@@ -11,6 +11,9 @@ return [
     'phone' => 'Phone:',
     'email' => 'Email',
     'phone_number' => '+88 019 44 55 55 00',
+    'phone_number2' => '+88 019 01 51 65 31',
+    'phone_number3' => '+88 019 01 51 65 32',
+    'phone_number4' => '+88 019 01 51 65 33',
     'newsletter' => 'Newsletter:',
     'text6' => 'Please subscribe for latest news'
 

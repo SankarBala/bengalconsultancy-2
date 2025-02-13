@@ -49,6 +49,8 @@
                     <div class="text-left mt-3" style="font-size: larger;">
                         <p class="text-info">{{ trans('about.ourMissionText1') }}</p>
                         <p class="text-info">{{ trans('about.ourMissionText2') }}</p>
+                        <p class="text-info">{{ trans('about.ourMissionText3') }}</p>
+                        <p class="text-info">{{ trans('about.ourMissionText4') }}</p>
                     </div>
                 </div>
             </div>
